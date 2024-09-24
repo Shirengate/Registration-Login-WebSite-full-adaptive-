@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sReg.css">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap">
+    <script src="anim.js"></script>
+</head>
+<body>
+    <div class="registerCont">
+        <h1>REGISTER</h1>
+        <div class="registerFrom">
+            <ul>
+                <form id="log" name="reg" action="database.php" method="post">
+                    <li><input type="email" placeholder="✉️ Email" class="logs" name="emailReg"></li>
+                    <li><input type="password" placeholder="🔒 Password" class="logs" name='passReg'maxlength="8" title="Максимум 8 символов"></li>
+                </form>
+            </ul>
+        </div>
+        <div class="logButton">
+            <input type="submit" form="log" value="REGISTERATION" name='submitReg'class="but">
+        </div>
+        <div class="signUp">
+            <p>You are member? <a href="http://127.0.0.1:5500/website(project)/iLog.html">Sign in now</a></p>
+        </div>
+    </div>
+</body>
+</html>
